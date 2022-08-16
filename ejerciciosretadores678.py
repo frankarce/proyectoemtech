@@ -1,4 +1,5 @@
 #############Seccion de solicitud de datos
+#EJERCICIO RETADOR #6
 from operator import itemgetter
 
 x = False
@@ -46,4 +47,4 @@ lito3.append(po2)
 lito3.append(po3)
 print(lito2)
 print(lito3)
-#EJERCICIO RETADOR #6
+
