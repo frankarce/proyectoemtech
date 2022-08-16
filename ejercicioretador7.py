@@ -22,11 +22,12 @@ def captura():
         pasajeros.append(Dic)
         x=input("desea capturar otro si/no:")
 def todos():
-    print (pasajeros)
+    for x in pasajeros:
+        print(x['IDE'],x['nom'])
 def CP():
     for x in (pasajeros):
         if x['CP']==True:
-            print (x)
+            print(x['IDE'], x['nom'])
 
 while opt != "4":
     print("***********************Menu*******************")
